@@ -26,7 +26,7 @@ function App() {
     });
     getQRCodeButton.addEventListener("click", () => {
       fetch(
-        "http://chart.apis.google.com/chart?cht=qr&chs=254x254&chld=Q%7C0&chl=https://dev-th.fwdxt.com/about-us"
+        "https://chart.apis.google.com/chart?cht=qr&chs=254x254&chld=Q%7C0&chl=https%3A%2F%2Fdev-th.fwdxt.com%2Fabout-us"
       )
         .then(function (data) {
           return data.blob();

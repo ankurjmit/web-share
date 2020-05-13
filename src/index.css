@@ -148,6 +148,11 @@ header {
   justify-content: center;
   margin: 20px 700px;
 }
+@media only screen and (max-width: 600px) {
+  .qr {
+    margin: 10px;
+  }
+}
 .qr-code-button {
   width: 300px;
   margin-bottom: 20px;
