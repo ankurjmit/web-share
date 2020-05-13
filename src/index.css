@@ -74,7 +74,13 @@ button:hover,
 .share-button,
 .share-dialog {
   position: absolute;
-  top: 50%;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mobile-view {
+  position: absolute;
+  bottom: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -134,4 +140,18 @@ header {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.qr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 700px;
+}
+.qr-code-button {
+  width: 300px;
+  margin-bottom: 20px;
+}
+#qrcode {
+  margin-bottom: 20px;
 }
